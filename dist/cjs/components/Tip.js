@@ -60,7 +60,7 @@ class Tip extends react_1.Component {
                         }
                     }
                 }),
-                react_1.default.createElement("div", null, ["💩", "😱", "😍", "🔥", "😳", "⚠️"].map((_emoji) => (react_1.default.createElement("label", { key: _emoji },
+                react_1.default.createElement("div", null, ["Person", "Object", "Place", "Time"].map((_emoji) => (react_1.default.createElement("label", { key: _emoji },
                     react_1.default.createElement("input", { checked: emoji === _emoji, type: "radio", name: "emoji", value: _emoji, onChange: (event) => this.setState({ emoji: event.target.value }) }),
                     _emoji))))),
             react_1.default.createElement("div", null,
