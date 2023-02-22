@@ -9,7 +9,7 @@ export class Highlight extends Component {
                     left: 20,
                     top: boundingRect.top,
                 } }, comment.emoji)) : null,
-            React.createElement("div", { className: "Highlight__parts" }, rects.map((rect, index) => (React.createElement("div", { onMouseOver: onMouseOver, onMouseOut: onMouseOut, onClick: onClick, key: index, style: rect, className: `Highlight__part` }))))));
+            React.createElement("div", { className: "Highlight__parts" }, rects.map((rect, index) => (React.createElement("div", { onMouseOver: onMouseOver, onMouseOut: onMouseOut, onClick: onClick, key: index, style: rect, className: `Highlight__part Label__${comment.emoji}` }))))));
     }
 }
 export default Highlight;

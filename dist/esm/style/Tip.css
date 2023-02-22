@@ -9,27 +9,61 @@
 
 .Tip__card {
   padding: 10px;
-  background: #fff;
+  background: #242323;;
   background-clip: padding-box;
   border: 1px solid #e8e8e8;
-  border-radius: 4px;
   box-shadow: 0 2px 4px rgba(37, 40, 43, 0.2);
+  border-radius: 1em;
 }
 
 .Tip__card textarea {
-  font-size: 16px;
   width: 200px;
   height: 70px;
+  background: #393535;
+  border-radius: 0.5em;
+  background: #2a2929;
+  color: white;
+  border: 1px solid #5d5959;
 }
 
 .Tip__card input[type="submit"] {
   margin-top: 5px;
-  font-size: large;
+  border-radius: 0.5em;
+  width: 100%;
+  height: 2em;
+  background: #2a2929;
+  color: white;
+  border: 1px solid #5d5959;
 }
 
 label {
   color: black;
   font-size: small;
   width: 100%;
-  display: block;
+  display: flex;
+  margin: 3px 0;
+  height: 2em;
+  vertical-align: middle;
+  line-height: 2.2em;
+  border-radius: 0.5em;
+}
+
+.Label__Person {
+  background: rgb(218, 131, 217);
+}
+
+.Label__Object {
+  background: rgb(141, 115, 88);
+}
+
+.Label__Place {
+  background: rgb(101, 171, 103);
+}
+
+.Label__Time {
+  background: rgb(125, 169, 207);
+}
+
+.Label__Idea {
+  background: rgb(214, 121, 121);
 }

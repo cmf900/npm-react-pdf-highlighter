@@ -7,6 +7,7 @@
   color: black;
   opacity: 1;
   font-size: 28px;
+  display:none;
 }
 
 .Highlight__parts {
@@ -17,6 +18,42 @@
   cursor: pointer;
   position: absolute;
   background: rgba(255, 226, 143, 1);
+  transition: background 0.3s;
+}
+
+
+.Label__Person {
+  cursor: pointer;
+  position: absolute;
+  background: rgb(218, 131, 217);
+  transition: background 0.3s;
+}
+
+.Label__Object {
+  cursor: pointer;
+  position: absolute;
+  background: rgb(141, 115, 88);
+  transition: background 0.3s;
+}
+
+.Label__Place {
+  cursor: pointer;
+  position: absolute;
+  background: rgb(101, 171, 103);
+  transition: background 0.3s;
+}
+
+.Label__Time {
+  cursor: pointer;
+  position: absolute;
+  background: rgb(125, 169, 207);
+  transition: background 0.3s;
+}
+
+.Label__Idea {
+  cursor: pointer;
+  position: absolute;
+  background: rgb(214, 121, 121);
   transition: background 0.3s;
 }
 

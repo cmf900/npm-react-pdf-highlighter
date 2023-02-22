@@ -31,7 +31,7 @@ class Highlight extends react_1.Component {
                     left: 20,
                     top: boundingRect.top,
                 } }, comment.emoji)) : null,
-            react_1.default.createElement("div", { className: "Highlight__parts" }, rects.map((rect, index) => (react_1.default.createElement("div", { onMouseOver: onMouseOver, onMouseOut: onMouseOut, onClick: onClick, key: index, style: rect, className: `Highlight__part` }))))));
+            react_1.default.createElement("div", { className: "Highlight__parts" }, rects.map((rect, index) => (react_1.default.createElement("div", { onMouseOver: onMouseOver, onMouseOut: onMouseOut, onClick: onClick, key: index, style: rect, className: `Highlight__part Label__${comment.emoji}` }))))));
     }
 }
 exports.Highlight = Highlight;
