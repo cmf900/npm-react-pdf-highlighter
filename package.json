@@ -1,6 +1,6 @@
 {
-  "_from": "react-pdf-highlighter",
-  "_id": "react-pdf-highlighter@5.6.0",
+  "_from": "npm-react-pdf-highlighter",
+  "_id": "npm-react-pdf-highlighter@5.6.0",
   "_inBundle": false,
   "_integrity": "sha512-3iAbqxA609HyqkWQih80ehFw7ti9chZ32pz7ErqFA3WVMZ1lyjVopi2K9v+3dgmCMW5QaWPHFMdLGbV5rzXGnQ==",
   "_location": "/react-pdf-highlighter",
@@ -12,9 +12,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "react-pdf-highlighter",
-    "name": "react-pdf-highlighter",
-    "escapedName": "react-pdf-highlighter",
+    "raw": "npm-react-pdf-highlighter",
+    "name": "npm-react-pdf-highlighter",
+    "escapedName": "npm-react-pdf-highlighter",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -25,7 +25,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/react-pdf-highlighter/-/react-pdf-highlighter-5.6.0.tgz",
   "_shasum": "47a6a7ed6fa9e4e30402e1766553138482f079e8",
-  "_spec": "react-pdf-highlighter",
+  "_spec": "npm-react-pdf-highlighter",
   "_where": "/Users/chris/Github/pdf/pdf-frontend",
   "author": {
     "name": "Artem Tyurin",
