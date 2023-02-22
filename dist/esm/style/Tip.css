@@ -48,21 +48,21 @@
 }
 
 .LabelTip__Person {
-  background: rgb(218, 131, 217);
+  background: #f3caf2;
 }
 
 .LabelTip__Object {
-  background: rgb(141, 115, 88);
+  background: #d5c0aa;
 }
 
 .LabelTip__Place {
-  background: rgb(101, 171, 103);
+  background: #cee4ce;
 }
 
 .LabelTip__Time {
-  background: rgb(125, 169, 207);
+  background: #c6d9ea;
 }
 
 .LabelTip__Idea {
-  background: rgb(214, 121, 121);
+  background: #f1e1b5;
 }
