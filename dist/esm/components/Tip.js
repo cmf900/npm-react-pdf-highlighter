@@ -24,7 +24,7 @@ export class Tip extends Component {
                 onOpen();
                 this.setState({ compact: false });
             }
-        }, "Mark")) : (React.createElement("form", {
+        }, "Mark It")) : (React.createElement("form", {
             className: "Tip__card", onSubmit: (event) => {
                 event.preventDefault();
                 onConfirm({ text, emoji });
