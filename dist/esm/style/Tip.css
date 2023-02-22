@@ -26,3 +26,10 @@
   margin-top: 5px;
   font-size: large;
 }
+
+label {
+  color: black;
+  font-size: small;
+  width: 100%;
+  display: block;
+}

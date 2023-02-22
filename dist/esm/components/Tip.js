@@ -24,7 +24,7 @@ export class Tip extends Component {
                 onOpen();
                 this.setState({ compact: false });
             }
-        }, "Mark It")) : (React.createElement("form", {
+        }, "Mark")) : (React.createElement("form", {
             className: "Tip__card", onSubmit: (event) => {
                 event.preventDefault();
                 onConfirm({ text, emoji });
@@ -32,17 +32,17 @@ export class Tip extends Component {
         },
             React.createElement("div", null,
                 React.createElement("textarea", {
-                    placeholder: "Your comment", autoFocus: true, value: text, onChange: (event) => this.setState({ text: event.target.value }), ref: (node) => {
+                    placeholder: "", autoFocus: true, value: text, onChange: (event) => this.setState({ text: event.target.value }), ref: (node) => {
                         if (node) {
                             node.focus();
                         }
                     }
                 }),
-                React.createElement("div", null, ["Person", "😱", "😍", "🔥", "😳", "⚠️"].map((_emoji) => (React.createElement("label", { key: _emoji },
+                React.createElement("div", null, ["Person", "Object", "Place", "Time", "Idea"].map((_emoji) => (React.createElement("label", { key: _emoji },
                     React.createElement("input", { checked: emoji === _emoji, type: "radio", name: "emoji", value: _emoji, onChange: (event) => this.setState({ emoji: event.target.value }) }),
                     _emoji))))),
             React.createElement("div", null,
-                React.createElement("input", { type: "submit", value: "Save" }))))));
+                React.createElement("input", { type: "submit", value: "Add" }))))));
     }
 }
 export default Tip;
