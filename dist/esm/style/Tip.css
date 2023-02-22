@@ -36,10 +36,10 @@
   border: 1px solid #5d5959;
 }
 
-label {
+.Label__Box {
   color: black;
   font-size: small;
-  width: 100%;
+  width: 90%;
   display: flex;
   margin: 3px 0;
   height: 2em;

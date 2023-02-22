@@ -1,6 +1,6 @@
 {
   "_from": "npm-react-pdf-highlighter",
-  "_id": "npm-react-pdf-highlighter@5.6.2",
+  "_id": "npm-react-pdf-highlighter@5.6.3",
   "_inBundle": false,
   "_integrity": "sha512-3iAbqxA609HyqkWQih80ehFw7ti9chZ32pz7ErqFA3WVMZ1lyjVopi2K9v+3dgmCMW5QaWPHFMdLGbV5rzXGnQ==",
   "_location": "/react-pdf-highlighter",
@@ -90,5 +90,5 @@
     "test": "tsc && npm run format:check && BROWSER=none jest --maxWorkers=1 -c jest.config.js"
   },
   "types": "./dist/esm/index.d.ts",
-  "version": "5.6.2"
+  "version": "5.6.3"
 }

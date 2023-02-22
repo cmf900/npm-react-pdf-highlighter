@@ -38,7 +38,7 @@ export class Tip extends Component {
                         }
                     }
                 }),
-                React.createElement("div", null, ["Person", "Object", "Place", "Time", "Idea"].map((_emoji) => (React.createElement("div", { key: _emoji,  className: `Label__${_emoji}` },
+                React.createElement("div", null, ["Person", "Object", "Place", "Time", "Idea"].map((_emoji) => (React.createElement("div", { key: _emoji,  className: `Label_Box Label__${_emoji}` },
                     React.createElement("input", { checked: emoji === _emoji, type: "radio", name: "emoji", value: _emoji, onChange: (event) => this.setState({ emoji: event.target.value }) }),
                     _emoji))))),
             React.createElement("div", null,
