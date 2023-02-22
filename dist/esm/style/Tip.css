@@ -39,31 +39,30 @@
 .Label__Box {
   color: black;
   font-size: small;
-  width: 90%;
+  width: 100%;
   display: flex;
   margin: 3px 0;
-  height: 2em;
   vertical-align: middle;
   line-height: 2.2em;
   border-radius: 0.5em;
 }
 
-.Label__Person {
+.LabelTip__Person {
   background: rgb(218, 131, 217);
 }
 
-.Label__Object {
+.LabelTip__Object {
   background: rgb(141, 115, 88);
 }
 
-.Label__Place {
+.LabelTip__Place {
   background: rgb(101, 171, 103);
 }
 
-.Label__Time {
+.LabelTip__Time {
   background: rgb(125, 169, 207);
 }
 
-.Label__Idea {
+.LabelTip__Idea {
   background: rgb(214, 121, 121);
 }
