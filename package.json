@@ -40,6 +40,7 @@
     "@types/react": "^16.4.0",
     "@types/react-dom": "^16.4.0",
     "lodash.debounce": "^4.0.8",
+    "pdfjs-dist": "2.16.105",
     "react-rnd": "^10.1.10"
   },
   "deprecated": false,
@@ -89,5 +90,5 @@
     "test": "tsc && npm run format:check && BROWSER=none jest --maxWorkers=1 -c jest.config.js"
   },
   "types": "./dist/esm/index.d.ts",
-  "version": "5.6.11"
+  "version": "5.6.12"
 }

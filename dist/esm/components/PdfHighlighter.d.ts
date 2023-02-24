@@ -1,10 +1,10 @@
 import { PointerEventHandler, PureComponent } from "react";
-import { EventBus, PDFViewer, PDFLinkService } from "../pdfjs-dist/legacy/web/pdf_viewer";
-import "../pdfjs-dist/web/pdf_viewer.css";
+import { EventBus, PDFViewer, PDFLinkService } from "pdfjs-dist/legacy/web/pdf_viewer";
+import "pdfjs-dist/web/pdf_viewer.css";
 import "../style/pdf_viewer.css";
 import "../style/PdfHighlighter.css";
 import type { Position, ScaledPosition, IHighlight, Scaled, LTWH, LTWHP } from "../types";
-import type { PDFDocumentProxy } from "../pdfjs-dist";
+import type { PDFDocumentProxy } from "pdfjs-dist";
 declare type T_ViewportHighlight<T_HT> = {
     position: Position;
 } & T_HT;

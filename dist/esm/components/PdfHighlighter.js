@@ -12,8 +12,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React, { PureComponent } from "react";
 import ReactDom from "react-dom";
 import debounce from "lodash.debounce";
-import { EventBus, PDFViewer, PDFLinkService, NullL10n, } from "../pdfjs-dist/legacy/web/pdf_viewer";
-import "../pdfjs-dist/web/pdf_viewer.css";
+import { EventBus, PDFViewer, PDFLinkService, NullL10n, } from "pdfjs-dist/legacy/web/pdf_viewer";
+import "pdfjs-dist/web/pdf_viewer.css";
 import "../style/pdf_viewer.css";
 import "../style/PdfHighlighter.css";
 import getBoundingRect from "../lib/get-bounding-rect";

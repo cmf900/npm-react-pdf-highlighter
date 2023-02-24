@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getDocument, GlobalWorkerOptions } from "../pdfjs-dist/legacy/build/pdf";
+import { getDocument, GlobalWorkerOptions } from "pdfjs-dist/legacy/build/pdf";
 export class PdfLoader extends Component {
     constructor() {
         super(...arguments);
