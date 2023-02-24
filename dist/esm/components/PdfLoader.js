@@ -10,6 +10,7 @@ export class PdfLoader extends Component {
         this.documentRef = React.createRef();
     }
     componentDidMount() {
+        
         this.load();
     }
     componentWillUnmount() {
